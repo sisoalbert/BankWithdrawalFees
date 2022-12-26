@@ -2,15 +2,17 @@
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
 }
 .home-image {
   width: 30%;
   object-fit: cover;
   padding-top: 0px;
+  padding-top: 50px;
+
 }
 @media(max-width: 991px) {
   .home-image {
@@ -21,4 +23,13 @@
   .home-image {
     width: 60%;
   }
+  .home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
 }
